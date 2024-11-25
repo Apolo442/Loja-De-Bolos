@@ -1,0 +1,55 @@
+.card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.body-catalog {
+  background-image: url("catalog_background.svg");
+}
+
+.body-admin {
+  background-image: url("admin_background.svg");
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+.btn-equal {
+  width: 200px;
+}
+
+.corA {
+  background-color: #ff9d66;
+  border-color: #ff9d66;
+}
+.corA:hover {
+  background-color: #ffbe98;
+  border-color: #ffbe98;
+}
+
+.card-personalizado-admin {
+  background-color: #eef1fa;
+  border: 2px solid #0d6efd;
+}
+
+.card-personalizado-admin-form {
+  background-color: #ffffff;
+  border: 2px solid #0d6efd;
+}
+
+.card-personalizado-bolo {
+  background-color: #ffdecb;
+  border: 2px solid #ff9d66;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card-personalizado-bolo .card-title {
+  color: #403a34;
+}
+
+.card-personalizado-bolo:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+}
